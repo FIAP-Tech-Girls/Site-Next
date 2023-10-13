@@ -8,6 +8,10 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #211340, #7D479B, #7B3CA6);
     color:white;
 }
 
