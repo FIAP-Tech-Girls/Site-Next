@@ -107,3 +107,9 @@ body{
     color: rgb(255, 255, 255);
     font-size: 50px;
 }
+
+/* Header e footer */
+header, footer{
+    width: 100%;
+    color:#fff;
+}
