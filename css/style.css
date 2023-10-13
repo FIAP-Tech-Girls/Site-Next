@@ -113,3 +113,61 @@ header, footer{
     width: 100%;
     color:#fff;
 }
+
+/* Construção da header */
+
+header{
+    padding:2px;
+}
+
+header .container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container-header img{
+    transition: 500ms linear;
+}
+
+header .container-header img:hover{
+    transform: scale(1.1);
+}
+
+header .container-header a{
+    text-decoration: none;
+}
+
+header .container-header .nav-list{
+    font-family: 'Love Ya Like A Sister', cursive; 
+    font-size: 25px;
+    list-style: none;
+    display:flex;
+    width: 620px;
+    height: 20;
+    justify-content: space-evenly;
+    padding-left:150px;
+}
+
+header .container-header .nav-list .item .active{
+    color:#000;
+}
+
+header .container-header .nav-list .item a{
+    text-decoration: none;
+    color:white;
+}
+
+header .container-header .nav-list .item a:hover{
+    color:#C07BD6;
+}
+
+/* Box principal da página */
+.content{
+    margin:auto;
+    padding:20px;
+    padding-top:6px;
+    padding-bottom:18px;
+    width: auto;
+    height: auto;
+}
