@@ -272,3 +272,55 @@ button:hover{
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+
+/* Tech Girls */
+
+#garotas{
+    display: flex;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:140px;
+}
+
+#Anny, #Camila, #Leticia, #Luana{
+    width: 300px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+#garotas p{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+    text-align: center;
+    padding-top:20px;
+}
+
+#redesSociais{
+    text-align: center;
+}
+
+#redesSociais img{
+    margin-top:10px;
+    padding:5px;
+    transition: 500ms linear;
+}
+
+#redesSociais img:hover{
+    transform: scale(1.1);
+}
+
+#organizacao{
+    padding:10px;
+    padding-top:20px;
+    text-align: center;
+}
+
+#organizacao img{
+    padding-top:20px;
+    transition: 500ms linear;
+}
+
+#organizacao img:hover{
+    transform: scale(1.1);
+}
