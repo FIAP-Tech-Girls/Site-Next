@@ -324,3 +324,10 @@ button:hover{
 #organizacao img:hover{
     transform: scale(1.1);
 }
+
+/* Projetos */
+
+#transito img{
+    width: 100%;
+    padding-bottom:10px;
+}
