@@ -213,7 +213,7 @@ main{
     text-align: justify;
     font-size: 20px;
     padding:10px;
-    padding-top:10px;
+    padding-top:20px;
 }
 
 #parcerias{
@@ -271,7 +271,7 @@ button:hover{
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+}
 
 
 /* Tech Girls */
@@ -329,5 +329,48 @@ button:hover{
 
 #transito img{
     width: 100%;
+    padding-top:10px;
     padding-bottom:10px;
 }
+
+#cardsTransito{
+    display: flex;
+    justify-content: center;
+}
+
+#cardTransito{
+    background-color: #B698BE;
+    text-align: center;
+    justify-content: center;
+    width: 320px;
+    height: 120px;
+    padding:10px;
+    padding-top:5px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    /* Criando o efeito card */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin-left: 30px;
+}
+
+#cardTransito #tituloCard{
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 30px;
+}
+
+#cardTransito p{
+    font-family: 'Inika', serif;
+    font-size: 20px;
+}
+
+#cardTransito:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#tiana img{
+    width: 100%;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
