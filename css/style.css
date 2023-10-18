@@ -15,6 +15,14 @@ body{
     background-image: linear-gradient(to right, #211340, #7D479B, #7B3CA6);
 }
 
+img{
+    transition: 500ms linear;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
 /* Parte do Scrolldown da home */
 
 .fa-angle-double-down {
@@ -382,3 +390,18 @@ button:hover{
     width: 900px;
 }
 
+#onuSolucoes{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#onuSolucoes #onu{
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+
+#onuSolucoes #onu img{
+    width: 250px;
+    margin-right:10px;
+}
