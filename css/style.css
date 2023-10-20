@@ -229,7 +229,8 @@ img:hover{
         padding:10px;
         padding-top:20px;
     }
-
+    
+    /* Home */
     #parcerias{
         display: flex;
         justify-content:center;
@@ -438,7 +439,7 @@ img:hover{
 
 /* Tablet */
 @media screen and (min-width:900px) and (max-width:1023px){
-    
+
     /* Parte do Scrolldown da home */
     .fa-angle-double-down {
         position: absolute;
@@ -519,11 +520,11 @@ img:hover{
         justify-content: center;
         cursor: pointer;
         transition: 500ms linear;
-        padding-bottom:5px;
+        padding-top:5px;
     }
 
     .scroll-conteudo button img{
-        height: 40px;
+        height: 50px;
     }
 
     .scroll-conteudo button:hover{
@@ -535,6 +536,107 @@ img:hover{
         color: rgb(255, 255, 255);
         font-size: 35px;
         padding-bottom:2px;
+    }
+
+    /* Header e footer */
+    header, footer{
+        width: 100%;
+        color:#fff;
+    }
+
+    /* Construção da header */
+
+    header{
+        padding:2px;
+    }
+
+    header .container-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .container-header a{
+        text-decoration: none;
+    }
+
+    header .container-header .nav-list{
+        font-family: 'Love Ya Like A Sister', cursive; 
+        font-size: 22px;
+        list-style: none;
+        display:flex;
+        width: 600px;
+        height: 10px;
+        justify-content: space-evenly;
+        padding-left:150px;
+    }
+
+    header .container-header .nav-list .item .active{
+        color:#000;
+    }
+
+    header .container-header .nav-list .item a{
+        text-decoration: none;
+        color:white;
+    }
+
+    header .container-header .nav-list .item a:hover{
+        color:#C07BD6;
+    }
+
+    /* Footer */
+    
+    footer{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    footer p{
+        font-family: 'Inika', serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* Box principal da página */
+    .content{
+        margin:auto;
+        padding:20px;
+        padding-top:6px;
+        padding-bottom:18px;
+        width: auto;
+        height: auto;
+    }
+
+    /* main */
+    main{
+        padding-bottom: 10px;
+    }
+
+    /* titulo de todas as seções no decorrer do site */
+    #tituloSecao{
+        font-family: 'Love Ya Like A Sister', cursive;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    /* Texto que terá no decorrer no site */
+    .textoImagem{
+        display: flex;
+        padding:10px;
+    }
+
+    .textoImagem img{
+        padding-left:10px;
+        padding-right: 10px;
+        height:400px;
+    }
+
+    .textoImagem p{
+        font-family: 'Inika', serif;
+        text-align: justify;
+        font-size: 18px;
+        padding:10px;
+        padding-top:20px;
     }
 }
 
